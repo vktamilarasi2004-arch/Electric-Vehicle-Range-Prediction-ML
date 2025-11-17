@@ -1,0 +1,63 @@
+File: EV_Range_Prediction.ipynb (Google Colab–ready)
+
+Notebook structure / cells (content-wise):
+
+1. Title & project intro (one cell, markdown)
+
+
+2. Mount Drive / load dataset (code — from google.colab import drive; drive.mount('/content/drive') or upload file)
+
+
+3. Imports (numpy,pandas,matplotlib,sklearn,xgboost,joblib)
+
+
+4. Load CSV & quick preview (df.head(), df.info())
+
+
+5. Data cleaning (dropna, handle duplicates, convert types) — code + short markdown explaining decisions
+
+
+6. EDA — correlations, histograms, scatterplots, feature relationships (visuals + markdown interpretation)
+
+
+7. Feature engineering — new features, encoding, scaling (show code + reasoning)
+
+
+8. Train/test split (train_test_split) and baseline model (Linear Regression)
+
+
+9. Train best models — RandomForest, XGBoost (with brief hyperparams)
+
+
+10. Evaluation — MAE, MSE, R² (table listing model scores)
+
+
+11. Save model (joblib.dump(model,'trained_model.pkl'))
+
+
+12. Conclusion & next steps (markdown)
+
+
+
+Notebook tip: Add runtime cell at top: # Runtime: Python 3, GPU: None (optional).
+
+
+
+---
+
+model/
+
+Files:
+
+trained_model.pkl — exported model (joblib/pickle)
+
+scaler.pkl — StandardScaler or MinMax scaler if used
+
+model_info.txt — short text with model name, score metrics, training date
+
+
+Model: XGBoostRegressor
+MAE: 4.32
+MSE: 28.9
+R2: 0.86
+Trained: 2025-11-17
