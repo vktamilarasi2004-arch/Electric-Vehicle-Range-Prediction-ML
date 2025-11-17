@@ -1,0 +1,41 @@
+A — GitHub web UI (fast)
+
+1. Create repo → click Add file > Upload files.
+
+
+2. Drag folders or files (upload dataset/, notebooks/, etc.).
+
+
+3. Commit directly to main with message:
+
+Initial commit — project files and notebook
+
+
+
+4. Create README.md via web editor or upload.
+
+
+
+B — Git (local) — commands
+
+git init
+git add .
+git commit -m "Initial commit — EV Range Prediction project"
+git branch -M main
+git remote add origin https://github.com/<username>/Electric-Vehicle-Range-Prediction-ML.git
+git push -u origin main
+
+
+---
+
+Commit message suggestions (use meaningful messages)
+
+Add raw dataset and dataset description
+
+Add EDA plots and notebook
+
+Add trained XGBoost model and scaler
+
+Update README and usage instructions
+
+
