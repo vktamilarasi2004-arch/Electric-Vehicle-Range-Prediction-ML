@@ -1,0 +1,62 @@
+Programming Language
+
+Python (main language for data analysis & ML)
+
+
+2. Development Environment
+
+Google Colab (model training & testing)
+
+Jupyter Notebook (local notebook support)
+
+VS Code (optional for file editing)
+
+
+3. Machine Learning Libraries
+
+Scikit-Learn (regression models, preprocessing, evaluation)
+
+XGBoost (advanced boosting model)
+
+NumPy (numerical operations)
+
+Pandas (data handling, cleaning, analysis)
+
+
+4. Visualization Tools
+
+Matplotlib (plots & graphs)
+
+Seaborn (correlation heatmaps, EDA)
+
+Plotly (optional interactive visuals)
+
+
+5. Data Processing & Feature Engineering
+
+StandardScaler / MinMaxScaler (feature scaling)
+
+Label Encoding / One-Hot Encoding (if categorical data exists)
+
+Train-Test Split (data splitting)
+
+
+6. Model Storage & Deployment
+
+Joblib / Pickle (for exporting trained model)
+
+GitHub (code hosting, version control)
+
+
+7. Dataset Source
+
+Kaggle (EV Range Prediction dataset download)
+
+
+8. Version Control
+
+Git (tracking changes, pushing updates)
+
+GitHub Desktop (optional user-friendly Git tool)
+
+
