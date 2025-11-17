@@ -1,0 +1,6 @@
+This project successfully demonstrates how Machine Learning can be used to predict the driving range of Electric Vehicles (EVs) using real-world data. By applying data preprocessing, exploratory analysis, feature engineering, and multiple regression algorithms, the model was able to estimate EV range with good accuracy. Among the trained models, the boosting-based approaches such as XGBoost and Random Forest provided more stable and reliable predictions compared to basic linear models.
+
+The project highlights the importance of key factors such as speed, temperature, battery percentage, and driving behaviour in determining the actual range of an EV. Through this work, we show how data-driven methods can help reduce “range anxiety,” improve trip planning, and contribute to smarter EV technologies.
+
+Overall, this project serves as a strong practical example of how Machine Learning can be applied in the electric mobility domain. It not only demonstrates technical skills in data handling and model development but also provides a foundation for future improvements like real-time prediction, deep learning models, or integration with mobile EV applications.
+
